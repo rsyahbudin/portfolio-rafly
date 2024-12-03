@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import logo from "../assets/mrslogo.jpg";
 
 const Navbar = () => {
@@ -10,6 +10,14 @@ const Navbar = () => {
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a
+          href="https://wa.me/6281804040684"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Whatsapp"
+        >
+          <FaWhatsapp />
+        </a>
         <a
           href="https://www.linkedin.com/in/raflysyahbudin"
           target="_blank"

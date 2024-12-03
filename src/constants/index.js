@@ -9,21 +9,21 @@ export const ABOUT_TEXT = `I am an Informatics Engineering student with a strong
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "Sep 2024 - Des 2024",
     role: "Web Developer",
     company: "PT. Kurnia Ciptamoda Gemilang",
-    description: `Designed and developed user interfaces for web application using Angular.`,
-    technologies: ["Angular", "Typescript", "Tailwindcss"],
+    description: `Successfully migrated the KCG System to a web-based application while designing and developing company profile websites for ptkcg.co.id and kcn.ptkcg.co.id. Actively participated in weekly team meetings to discuss project progress and collaborated closely with the mentor to assist in various website management and development tasks.`,
+    technologies: ["Angular", "Typescript", "Tailwindcss", "Wordpress"],
   },
   {
-    year: "2024 - 2024",
+    year: "Feb 2024 - Jun 2024",
     role: "IT Application Officer - Software Developer",
     company: "PT. Trans Retail Indonesia",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["React.js", "Vite.js", "Node.js", "mySQL"],
   },
   {
-    year: "2021 - 2023",
+    year: "Jan 2021 - Oct 2023",
     role: "IT",
     company: "Teras Rumah Nenek",
     description: `Created website for our company www.terasrumahnenek.com
@@ -32,7 +32,7 @@ Managed full network on our company include WiFi, Website, and device for operat
     technologies: ["Wordpress", "CCTV", "Winbox"],
   },
   {
-    year: "2020 - 2023",
+    year: "Apr 2020 - Oct 2023",
     role: "Digital Marketing",
     company: "Teras Rumah Nenek",
     description: `Collaborated with 2 other team members to run the community’s Instagram account.
