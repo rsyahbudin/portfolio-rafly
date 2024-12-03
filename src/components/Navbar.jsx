@@ -1,4 +1,5 @@
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { RiNotionFill } from "react-icons/ri";
 import logo from "../assets/mrslogo.jpg";
 
 const Navbar = () => {
@@ -17,6 +18,14 @@ const Navbar = () => {
           aria-label="Whatsapp"
         >
           <FaWhatsapp />
+        </a>
+        <a
+          href="https://bit.ly/portfolio-rsyahbudin"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Notion"
+        >
+          <RiNotionFill />
         </a>
         <a
           href="https://www.linkedin.com/in/raflysyahbudin"

@@ -1,4 +1,3 @@
-import { BiLogoPostgresql } from "react-icons/bi";
 import { FaAngular, FaLaravel, FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import {  SiMysql, SiTypescript } from "react-icons/si";

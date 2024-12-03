@@ -2,8 +2,11 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import cert1 from "../assets/cert/bootcamp.pdf";
+import cert2 from "../assets/cert/bwaWeb.pdf";
+import cert3 from "../assets/cert/Transretail.pdf";
 
-export const HERO_CONTENT = `I am an Informatics Engineering student with a strong passion for web development, continuously driven to expand my skills and stay up-to-date with the latest technologies. Known for being productive, optimistic, and humble, I thrive in collaborative environments and enjoy tackling challenges with a positive attitude. I bring a detail-oriented mindset and a proactive approach to my work, aiming to build seamless, user-friendly applications. With a commitment to lifelong learning, I am excited to contribute to impactful projects and grow alongside a dynamic team.`;
+export const HERO_CONTENT = `I am a fourth-year Informatics Engineering student at Universitas Gunadarma, currently holding a GPA of 3.8. With a strong passion for web development, I am continuously driven to expand my skills and stay up-to-date with the latest technologies. Known for being productive, optimistic, and humble, I thrive in collaborative environments and enjoy tackling challenges with a positive attitude. I bring a detail-oriented mindset and a proactive approach to my work, aiming to build seamless, user-friendly applications. With a commitment to lifelong learning, I am excited to contribute to impactful projects and grow alongside a dynamic team.`;
 
 export const ABOUT_TEXT = `I am an Informatics Engineering student with a strong passion for web development, continuously driven to expand my skills and stay up-to-date with the latest technologies. Known for being productive, optimistic, and humble, I thrive in collaborative environments and enjoy tackling challenges with a positive attitude. I bring a detail-oriented mindset and a proactive approach to my work, aiming to build seamless, user-friendly applications. With a commitment to lifelong learning, I am excited to contribute to impactful projects and grow alongside a dynamic team.`;
 
@@ -85,3 +88,33 @@ export const CONTACT = {
   phoneNo: "+62 81804040684",
   email: "syahbudin45@gmail.com",
 };
+
+export const certifications = [
+  {
+    id: 1,
+    title: "Fullstack Web Developer Bootcamp",
+    institution: "Binar Academy",
+    year: 2023,
+    description:
+      "Started the bootcamp on April 18, 2023, and completed it on November 15, 2023. Graduated with a grade of 4.6/5 for Hard Skills and 4.3/5 for Soft Skills.",
+    pdf: cert1,
+  },
+  {
+    id: 2,
+    title: "Internship Certification",
+    institution: "Trans Retail Indonesia",
+    year: 2024,
+    description:
+      "Started an internship in February and completed it in June as part of the Kampus Merdeka program, successfully graduating with an A grade distinction.",
+    pdf: cert3,
+  },
+  {
+    id: 3,
+    title: "Web Development Laravel 11: Multi-Purpose Company Profile",
+    institution: "Build With Angga",
+    year: 2024,
+    description:
+      "Gained hands-on experience in web development using Laravel 11.",
+    pdf: cert2,
+  },
+];
