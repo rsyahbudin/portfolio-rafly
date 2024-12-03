@@ -14,7 +14,10 @@ const Projects = () => {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center lg:items-start"
+          >
             {/* Image Section */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -38,22 +41,20 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <div className="flex items-center justify-between">
-                <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-slate-500  hover:text-slate-700 text-sm lg:text-base "
-                >
-                  Link
-                </a>
-              </div>
+              <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mb-4 text-sm text-slate-500 underline hover:text-slate-700 lg:mb-2"
+              >
+                View Project
+              </a>
               <p className="mb-4 text-stone-400">{project.description}</p>
-              <div className="mb-4">
+              <div className="mb-4 flex flex-wrap">
                 {project.technologies.map((tech, index) => (
                   <span
-                    className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                    className="mr-2 mb-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
                     key={index}
                   >
                     {tech}
