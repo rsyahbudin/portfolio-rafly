@@ -1,4 +1,4 @@
-import { FaAngular, FaLaravel, FaNodeJs } from "react-icons/fa";
+import { FaAngular, FaLaravel, FaNodeJs, FaWordpress } from "react-icons/fa";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import {  SiMysql, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -93,6 +93,14 @@ const Technologies = () => {
           className="p-4"
         >
           <FaAngular className="text-7xl text-red-600" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(2)}
+          className="p-4"
+        >
+          <FaWordpress className="text-7xl text-sky-600" />
         </motion.div>
       </motion.div>
     </div>

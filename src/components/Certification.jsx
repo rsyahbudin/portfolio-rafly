@@ -27,11 +27,11 @@ const Certifications = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4  p-6 rounded-md shadow-md"
+              className="w-full max-w-xl lg:w-3/4  "
             >
               <h3 className="mb-2 font-semibold text-2xl text-white">
                 {cert.title} -{" "}
-                <span className="text-sm text-stone-400">
+                <span className="text-sm text-stone-500">
                   {cert.institution}
                 </span>
               </h3>

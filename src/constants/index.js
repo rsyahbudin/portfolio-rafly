@@ -50,8 +50,9 @@ export const PROJECTS = [
   {
     title: "SPS Website",
     image: project1,
-    description: `I developed a company profile website for PT. Setia Primatamas Semesta, complete with an admin dashboard to facilitate updates on the site, such as managing products, clients, and other essential information. You can view the site at https://setiaprimastamas.com`,
+    description: `I developed a company profile website for PT. Setia Primatamas Semesta, complete with an admin dashboard to facilitate updates on the site, such as managing products, clients, and other essential information.`,
     technologies: ["Laravel", "Tailwindcss", "Mysql", "Vite.js", "PHP"],
+    link: "https://setiaprimastamas.com",
   },
   {
     title: "Teras Rumah Nenek Website",
@@ -59,19 +60,21 @@ export const PROJECTS = [
     description:
       "I created terasrumahnenek.com as a WordPress-based website for a cafe, designed to list events and provide essential information such as menu options, pricing, and wedding package details.",
     technologies: ["Wordpress"],
+    link: "https://terasrumahnenek.com",
   },
   {
-    title: "Portfolio Website",
+    title: "Company Profile Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Vite.js", "Tailwindcss", "React"],
+      "Create and Develope company profile website for ptkcg.co.id and kcn.ptkcg.co.idDesigned and developed dynamic and engaging company profile websites for ptkcg.co.id and kcn.ptkcg.co.id, enhancing the online presence and showcasing the company's brand effectively.",
+    technologies: ["Wordpress"],
+    link: "https://ptkcg.co.id",
   },
   {
     title: "Faktur Pajak Website",
     image: project4,
     description:
-      "I developed a website for PT. Trans Retail Indonesia on behalf of Transmart to streamline the company's tax invoice requests. The site provides an efficient platform for managing and tracking invoice requests tailored to meet Transmart’s operational needs. You can access it here: fakturpajak.transmart.co.id.",
+      "I developed a website for PT. Trans Retail Indonesia on behalf of Transmart to streamline the company's tax invoice requests. The site provides an efficient platform for managing and tracking invoice requests tailored to meet Transmart’s operational needs. ",
     technologies: [
       "React",
       "Tailwindcss",
@@ -80,6 +83,7 @@ export const PROJECTS = [
       "mySQL",
       "Oracle",
     ],
+    link: "https://fakturpajak.transmart.co.id",
   },
 ];
 
