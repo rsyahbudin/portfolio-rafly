@@ -48,11 +48,19 @@ Managed all social media include Instagram, Facebook, and TikTok Making social m
 
 export const PROJECTS = [
   {
+    title: "Elevasi Contractor Website",
+    image: project4,
+    description: `I developed a company profile website for Elevasi Contractor, showcasing the company's services, projects, and essential information to strengthen its online presence.
+`,
+    technologies: ["React", "Tailwindcss", "Vite.js"],
+    link: "https://elevasi.vercel.app",
+  },
+  {
     title: "SPS Website",
     image: project1,
     description: `I developed a company profile website for PT. Setia Primatamas Semesta, complete with an admin dashboard to facilitate updates on the site, such as managing products, clients, and other essential information.`,
     technologies: ["Laravel", "Tailwindcss", "Mysql", "Vite.js", "PHP"],
-    link: "https://setiaprimastamas.com",
+    link: "https://setiaprimatamas.com",
   },
   {
     title: "Teras Rumah Nenek Website",
