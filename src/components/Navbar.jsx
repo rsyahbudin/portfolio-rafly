@@ -19,14 +19,7 @@ const Navbar = () => {
         >
           <FaWhatsapp />
         </a>
-        <a
-          href="https://bit.ly/portfolio-rsyahbudin"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Notion"
-        >
-          <RiNotionFill />
-        </a>
+
         <a
           href="https://www.linkedin.com/in/raflysyahbudin"
           target="_blank"
