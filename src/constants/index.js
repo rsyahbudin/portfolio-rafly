@@ -11,6 +11,14 @@ export const HERO_CONTENT = `A fresh graduate in Informatics Engineering with 2 
 export const ABOUT_TEXT = `I am an Informatics Engineering student with a strong passion for web development, continuously driven to expand my skills and stay up-to-date with the latest technologies. Known for being productive, optimistic, and humble, I thrive in collaborative environments and enjoy tackling challenges with a positive attitude. I bring a detail-oriented mindset and a proactive approach to my work, aiming to build seamless, user-friendly applications. With a commitment to lifelong learning, I am excited to contribute to impactful projects and grow alongside a dynamic team.`;
 
 export const EXPERIENCES = [
+  
+  {
+    year: "Jan 2025 - Mar 2025",
+    role: "Technical Support",
+    company: "PT. Intelix Global Crossing",
+    description: `I am responsible for creating and updating JavaScript-based IVR flows, performing preventive maintenance on client servers, and investigating, diagnosing, and resolving issues related to the Ecentrix telephony system and CRM applications. I also coordinate and collaborate with third-party vendors to identify the root causes of application and telephony system problems, including other factors that may affect the overall performance of the system. In addition, I handle multiple client issues involving MySQL database management and Linux server administration.`,
+    technologies: ["MySQL", "Javascript", "Postgresql", "Linux", "PHP"],
+  },
   {
     year: "Sep 2024 - Des 2024",
     role: "Web Developer",
@@ -26,23 +34,13 @@ export const EXPERIENCES = [
     technologies: ["React.js", "Vite.js", "Node.js", "mySQL"],
   },
   {
-    year: "Jan 2021 - Oct 2023",
+    year: "Feb 2021 - Oct 2021",
     role: "IT",
     company: "Teras Rumah Nenek",
     description: `Created website for our company www.terasrumahnenek.com
 Managed full network on our company include WiFi, Website, and device for operational Managed all CCTV
 `,
     technologies: ["Wordpress", "CCTV", "Winbox"],
-  },
-  {
-    year: "Apr 2020 - Oct 2023",
-    role: "Digital Marketing",
-    company: "Teras Rumah Nenek",
-    description: `Collaborated with 2 other team members to run the community’s Instagram account.
-Assisted Social Media Team Leader to create a content plan and ads strategy resulted in 20.000++ Followers.
-Managed all social media include Instagram, Facebook, and TikTok Making social media ads with Ads manager Facebook Benchmarking and analyzing competitor social media strategy
-`,
-    technologies: ["Instagram", "Facebook", "Facebook Ads", "Tiktok"],
   },
 ];
 
@@ -51,7 +49,7 @@ export const PROJECTS = [
     title: "Wedding Invitation Website",
     image: project4,
     description: `I created a wedding invitation for Daffa & Nadia wedding.`,
-    technologies: ["Laravel", "Tailwindcss", "Mysql", "Vite.js", "PHP"],
+    technologies: ["Laravel", "Tailwindcss", "Mysql", "Blade", "PHP"],
     link: "https://daffanadia.terasrumahnenek.com/sesi1",
   },
   {
