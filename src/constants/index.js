@@ -6,7 +6,7 @@ import cert1 from "../assets/cert/bootcamp.pdf";
 import cert2 from "../assets/cert/bwaWeb.pdf";
 import cert3 from "../assets/cert/Transretail.pdf";
 
-export const HERO_CONTENT = `I am a fourth-year Informatics Engineering student at Universitas Gunadarma, currently holding a GPA of 3.8. With a strong passion for web development, I am continuously driven to expand my skills and stay up-to-date with the latest technologies. Known for being productive, optimistic, and humble, I thrive in collaborative environments and enjoy tackling challenges with a positive attitude. I bring a detail-oriented mindset and a proactive approach to my work, aiming to build seamless, user-friendly applications. With a commitment to lifelong learning, I am excited to contribute to impactful projects and grow alongside a dynamic team.`;
+export const HERO_CONTENT = `A fresh graduate in Informatics Engineering with 2 years of professional experience in the IT industry, specializing in Web Development. An enthusiastic, optimistic, and humble individual who thrives in team environments. Skilled in building functional and user-friendly web applications, with hands-on experience from both academic projects and professional work. Equipped with a results-oriented mindset and a continuous eagerness to learn, adapt, and grow with the latest technologies.`;
 
 export const ABOUT_TEXT = `I am an Informatics Engineering student with a strong passion for web development, continuously driven to expand my skills and stay up-to-date with the latest technologies. Known for being productive, optimistic, and humble, I thrive in collaborative environments and enjoy tackling challenges with a positive attitude. I bring a detail-oriented mindset and a proactive approach to my work, aiming to build seamless, user-friendly applications. With a commitment to lifelong learning, I am excited to contribute to impactful projects and grow alongside a dynamic team.`;
 
@@ -48,12 +48,18 @@ Managed all social media include Instagram, Facebook, and TikTok Making social m
 
 export const PROJECTS = [
   {
-    title: "Elevasi Contractor Website",
+    title: "Wedding Invitation Website",
     image: project4,
-    description: `I developed a company profile website for Elevasi Contractor, showcasing the company's services, projects, and essential information to strengthen its online presence.
-`,
-    technologies: ["React", "Tailwindcss", "Vite.js"],
-    link: "https://elevasi.vercel.app",
+    description: `I created a wedding invitation for Daffa & Nadia wedding.`,
+    technologies: ["Laravel", "Tailwindcss", "Mysql", "Vite.js", "PHP"],
+    link: "https://daffanadia.terasrumahnenek.com/sesi1",
+  },
+  {
+    title: "Setia Tritunggal Inti Artha Website",
+    image: project3,
+    description: `I created a company profile website for PT. Setia Tritunggal Inti Artha Website, showcasing the company's services, products, and essential information to strengthen its online presence.`,
+    technologies: ["Laravel", "Tailwindcss", "Mysql", "Vite.js", "PHP"],
+    link: "https://setiatritunggal.com",
   },
   {
     title: "SPS Website",
